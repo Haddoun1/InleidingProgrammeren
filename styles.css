@@ -1,0 +1,36 @@
+.grid {
+    width: 30em;
+    height: 30em;
+    border: solid 1em black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    margin-left: 31em;
+}
+
+.grid div {
+    width: 2em;
+    height: 2em;
+}
+
+.alien {
+    background-color: blue;
+    border-radius: 1em;
+}
+
+.player {
+    background-color: lightcoral;
+}
+
+.laser {
+    background-color: rgb(21, 255, 0);
+    border-radius: 1em;
+}
+
+.hit {
+    background-color: rgb(255, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
