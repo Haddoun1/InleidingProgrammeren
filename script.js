@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
       playButton.addEventListener('click', () => {
       
           backgroundMusic.play().then(() => {
-              window.location.href = 'index.html';
+              window.location.href = 'start.html';
           }).catch(error => {
               console.error("Music play error: ", error);
-              window.location.href = 'index.html';
+              window.location.href = 'start.html';
           });
       });
 
