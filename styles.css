@@ -34,3 +34,32 @@
 h1 {
     text-align: center;
 }
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.start-screen h1 {
+    color: black;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.play-button {
+    padding: 1em 2em;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: darkgray;
+}
